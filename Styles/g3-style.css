@@ -193,3 +193,19 @@ main>section {
 .fact-description {
     max-width: 540px;
 }
+
+/* our sponspor related styles */
+.sponspors-info {
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sponspors-companies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sponspors-companies img {
+    filter: grayscale(100%);
+}
